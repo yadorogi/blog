@@ -1,0 +1,7 @@
+baseURL = 'http://example.org/'
+title = 'とあるITフリーランスの雑記帳'
+theme = "mainroad"
+DefaultContentLanguage = "ja"
+languageCode = "ja-JP"
+hasCJKLanguage = "true"
+# googleAnalytics = "UA-XXXXXXXXX-X" # Enable Google Analytics by entering your tracking id
