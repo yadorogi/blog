@@ -1,7 +1,31 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://toaru-it.com/'
 title = 'とあるITフリーランスの雑記帳'
 theme = "mainroad"
 DefaultContentLanguage = "ja"
 languageCode = "ja-JP"
 hasCJKLanguage = "true"
 # googleAnalytics = "UA-XXXXXXXXX-X" # Enable Google Analytics by entering your tracking id
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+
+    [markup.goldmark.parser]
+      autoHeadingID = true
+      autoHeadingIDType = 'github'
+      [markup.goldmark.parser.attribute]
+        block = false
+        title = true
+
+
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = false
+      xhtml = false

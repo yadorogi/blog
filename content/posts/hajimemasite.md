@@ -3,8 +3,10 @@ title: "はじめまして。"
 date: 2021-09-18T17:07:36+09:00
 draft: true
 ---
+
 はじめまして。
-[@yadorogizz](https://twitter.com/yadorogizz)と申します。
+
+<a href="https://twitter.com/yadorogizz">@yadorogizz</a>と申します。
 
 本業は、フリーランスでスマートフォンアプリのエンジニアをしています。
 
