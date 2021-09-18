@@ -7,14 +7,14 @@ hasCJKLanguage = "true"
 # googleAnalytics = "UA-XXXXXXXXX-X" # Enable Google Analytics by entering your tracking id
 
 [Author] # Used in authorbox
-  name = "いしぐろ すぐる"
+  name = "HELMET CRAB."
   bio = "本サイトの管理人です。座右の銘は「行雲流水」です。"
   avatar = "img/profile.PNG"
 
 [Params]
   subtitle = "ポケ森ファンが発信するまとめサイト" # Deprecated in favor of .Site.Params.logo.subtitle
   description = "どうぶつの森ポケットキャンプのまとめサイトです。はじめたばかりのユーザーに役立つ攻略情報やプレイした感想などを発信しています。" # Site description. Used in meta description
-  copyright = "いしぐろ すぐる" # Footer copyright holder, otherwise will use site title
+  copyright = "HELMET CRAB." # Footer copyright holder, otherwise will use site title
   opengraph = true # Enable OpenGraph if true
   schema = true # Enable Schema
   twitter_cards = true # Enable Twitter Cards if true
