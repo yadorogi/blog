@@ -2,10 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://toaru-it.com/posts/</loc>
+    <lastmod>2021-09-18T17:51:24+09:00</lastmod>
+  </url><url>
+    <loc>https://toaru-it.com/</loc>
+    <lastmod>2021-09-18T17:51:24+09:00</lastmod>
+  </url><url>
+    <loc>https://toaru-it.com/posts/categories/hajimemasite/</loc>
+    <lastmod>2021-09-18T17:51:24+09:00</lastmod>
+  </url><url>
+    <loc>https://toaru-it.com/posts/hajimemasite/</loc>
+    <lastmod>2021-09-18T17:51:24+09:00</lastmod>
+  </url><url>
     <loc>https://toaru-it.com/categories/</loc>
   </url><url>
     <loc>https://toaru-it.com/tags/</loc>
-  </url><url>
-    <loc>https://toaru-it.com/</loc>
   </url>
 </urlset>

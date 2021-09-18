@@ -6,26 +6,77 @@ languageCode = "ja-JP"
 hasCJKLanguage = "true"
 # googleAnalytics = "UA-XXXXXXXXX-X" # Enable Google Analytics by entering your tracking id
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.extensions]
-      definitionList = true
-      footnote = true
-      linkify = true
-      strikethrough = true
-      table = true
-      taskList = true
-      typographer = true
+[Author] # Used in authorbox
+  name = "いしぐろ すぐる"
+  bio = "本サイトの管理人です。座右の銘は「行雲流水」です。"
+  avatar = "img/profile.PNG"
 
-    [markup.goldmark.parser]
-      autoHeadingID = true
-      autoHeadingIDType = 'github'
-      [markup.goldmark.parser.attribute]
-        block = false
-        title = true
+[Params]
+  subtitle = "ポケ森ファンが発信するまとめサイト" # Deprecated in favor of .Site.Params.logo.subtitle
+  description = "どうぶつの森ポケットキャンプのまとめサイトです。はじめたばかりのユーザーに役立つ攻略情報やプレイした感想などを発信しています。" # Site description. Used in meta description
+  copyright = "いしぐろ すぐる" # Footer copyright holder, otherwise will use site title
+  opengraph = true # Enable OpenGraph if true
+  schema = true # Enable Schema
+  twitter_cards = true # Enable Twitter Cards if true
+  readmore = false # Show "Read more" button in list if true
+  authorbox = true # Show authorbox at bottom of pages if true
+  toc = true # Enable Table of Contents
+  pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
+  post_meta = ["date", "categories"] # Order of post meta information
+  mainSections = ['日記', '技術', '趣味', '日常'] # Specify section pages to show on home page and the "Recent articles" widget
+  dateformat = "2021-09-18" # Change the format of dates
+  mathjax = true # Enable MathJax
+  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
+  mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+  highlightColor = "#009406" # Override highlight color
+#   customCSS = ["css/custom.css"] # Include custom CSS files
+#   customJS = ["js/custom.js"] # Include custom JS files
 
+[Params.logo]
+#   image = "img/profile.PNG" # Logo image. Path relative to "static"
+  title = "とあるITフリーランスの雑記帳" # Logo title, otherwise will use site title
+  subtitle = "とあるITフリーランスの戯言です。" # Logo subtitle
 
-    [markup.goldmark.renderer]
-      hardWraps = false
-      unsafe = false
-      xhtml = false
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = "right"  # Configure layout for list pages
+  single = "right" # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "taglist", "social"]
+  # alternatively "ddg-search" can be used, to search via DuckDuckGo
+  # widgets = ["ddg-search", "recent", "categories", "taglist", "social", "languages"]
+
+[Params.widgets]
+  recent_num = 5 # Set the number of articles in the "Recent articles" widget
+  tags_counter = true # Enable counter for each tag in "Tags" widget
+
+[Params.widgets.social]
+  # Enable parts of social widget
+#   facebook = "username"
+#   twitter = "username"
+#   instagram = "username"
+#   linkedin = "username"
+#   telegram = "username"
+#   github = "username"
+#   gitlab = "username"
+#   bitbucket = "username"
+  email = "info@toaru-it.com"
+
+[[Params.widgets.social.custom]]
+  title = "とあるITフリーランスの雑記帳"
+  url = "https://toaru-it.com/"
+
+[[Menus.main]]
+  Name = "トップ"
+  URL = "/"
+  weight = 1
+
+[[Menus.main]]
+  Name = "カテゴリー"
+  URL = "/categories/"
+  weight = 2
+
+[[Menus.main]]
+  Name = "タグ"
+  URL = "/tags/"
+  weight = 3
