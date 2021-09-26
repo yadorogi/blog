@@ -1,7 +1,9 @@
 baseURL = 'https://toaru-it.com/'
 title = 'とあるITフリーランスの雑記帳'
 theme = "mainroad"
+
 DefaultContentLanguage = "ja"
+
 languageCode = "ja-JP"
 hasCJKLanguage = "true"
 # googleAnalytics = "UA-XXXXXXXXX-X" # Enable Google Analytics by entering your tracking id
@@ -12,8 +14,8 @@ hasCJKLanguage = "true"
   avatar = "img/profile.PNG"
 
 [Params]
-  subtitle = "ポケ森ファンが発信するまとめサイト" # Deprecated in favor of .Site.Params.logo.subtitle
-  description = "どうぶつの森ポケットキャンプのまとめサイトです。はじめたばかりのユーザーに役立つ攻略情報やプレイした感想などを発信しています。" # Site description. Used in meta description
+  subtitle = "とあるITフリーランスの雑記帳" # Deprecated in favor of .Site.Params.logo.subtitle
+  description = "とあるITフリーランスの戯言です。" # Site description. Used in meta description
   copyright = "HELMET CRAB." # Footer copyright holder, otherwise will use site title
   opengraph = true # Enable OpenGraph if true
   schema = true # Enable Schema
